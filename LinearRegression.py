@@ -32,10 +32,10 @@ class LinearRegression:
         ax1.plot(np.arange(self.convergence+1),self.cost,label='cost',marker='.')
         ax1.set(title='Cost vs Iterations',ylabel='Cost',xlabel='n_iterations')
         ax1.legend()
-
+    
 x = np.arange(0,10,0.5).reshape(-1,1)       #input x signals
 random_state = np.random.RandomState(42)
-y = 0.5*x + 3*random_state.random(x.shape)  #input signals
+y = 0.5*x + 3*random_state.random(x.shape)  #input y signals
 
 lm = LinearRegression()
 lm.fit(x,y)
