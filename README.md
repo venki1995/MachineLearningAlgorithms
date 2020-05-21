@@ -15,7 +15,8 @@ pip install numpy,matplotlib
 ## Linear Regression
 
 1. Uses gradient descent for loss function optimisation with convergence of 0.001.
-2. The input feature vector X and target y are to be given as column vectors to the model
+2. eta is the learning rate which is multiplied with the gradient and n_iterations is number of iterations 
+3. The input feature vector X and target y are to be given as column vectors to the model
 
 ```
 
