@@ -9,7 +9,7 @@ class LinearRegression:
         self.n_iterations = n_iterations
     
     def predict(self,X):
-        return np.dot(X,self.w[1:]) + self.w[0]
+        return np.dot(X,self.w[1:]) + self.w[0]  #using the fit intercept term
     
     def fit(self,X,y):
         self.cost = []
@@ -17,10 +17,10 @@ class LinearRegression:
         self.w = np.random.random((X.shape[1]+1,1))
         for i in range(self.n_iterations):
             residuals = y - self.predict(X)
-            self.w[1:] = self.w[1:] + self.eta*(np.dot(X.T,residuals)/x)
+            self.w[1:] = self.w[1:] + self.eta*(np.dot(X.T,residuals)/x) #loss function = 1/2m(y-ypred)^2
             self.w[0] = self.w[0] + self.eta*(np.sum(residuals)/x)
             self.cost.append(np.sum(residuals**2)/2*x)
-            if np.abs(np.sum(residuals)) < 10**-2:
+            if np.abs(np.sum(residuals)) < 10**-3: #convergence criteria
                 self.convergence = i
                 break
             else:
