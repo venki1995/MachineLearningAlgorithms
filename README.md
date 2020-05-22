@@ -18,7 +18,7 @@ pip install numpy,matplotlib
 2. eta is the learning rate which is multiplied with the gradient and n_iterations is number of iterations 
 3. The input feature vector X and target y are to be given as column vectors to the model
 
-<img src="/tex/a865fa61329613def1a29a2bbd420fd8.svg?invert_in_darkmode&sanitize=true" align=middle width=364.5280815pt height=29.190975000000005pt/>
+<img src="/tex/fff43798ef3a1fe4853f54df8568b8dd.svg?invert_in_darkmode&sanitize=true" align=middle width=369.3223083pt height=29.190975000000005pt/>
 ```
 
 ## Contributing
