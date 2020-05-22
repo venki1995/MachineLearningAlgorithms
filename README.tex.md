@@ -18,7 +18,7 @@ pip install numpy,matplotlib
 2. eta is the learning rate which is multiplied with the gradient and n_iterations is number of iterations 
 3. The input feature vector X and target y are to be given as column vectors to the model
 
-$ cost\ function = \frac{1}{2m}\ \sum_{i=1}^{m}\ [\ y^{(i)} - (w_{0} + w_{1}x^{(i)})\ ]^{2}  $
+$ \begin{large}cost\ function = \frac{1}{2m}\ \sum_{i=1}^{m}\ [\ y^{(i)} - (w_{0} + w_{1}x^{(i)})\ ]^{2}  \end{large}$
 ```
 
 ## Contributing
