@@ -53,7 +53,7 @@ for i in [0,10,100,1000]:
     ax1.legend()
    
     ax2.scatter(lasso.w[0],lasso.w[1],marker='o',label='Weights_theta '+str(i))
-    ax2.set(title='Lasso_Weights',ylabel='w1 weights',xlabel='w0 weights')
+    ax2.set(title='Lasso_Weights',ylabel='w1 weights',xlabel='w0 weights',xlim=[1,4],ylim=[0,0.6])
     ax2.legend()
     
 
