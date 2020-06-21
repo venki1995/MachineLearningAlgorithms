@@ -8,7 +8,7 @@
 
 #### Decision Boundary for iris dataset
 
-<img src="images/decision_boundary.png" width="500" height="400"/>
+<img src="Images/decision_boundary.png" width="500" height="400"/>
 
 ## Contributing
 
