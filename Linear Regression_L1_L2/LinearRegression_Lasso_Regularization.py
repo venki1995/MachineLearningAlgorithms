@@ -49,11 +49,11 @@ for i in [0,10,100,1000]:
     lasso.fit(x,y)
     lasso_pred = lasso.predict(x)
     ax1.plot(x,lasso_pred,marker='.',label='Predicted_theta '+str(i))
-    ax1.set(title='Linear Regression',ylabel='y values',xlabel='x values')
+    ax1.set(title='Linear Regression_Lasso Effect',ylabel='y values',xlabel='x values')
     ax1.legend()
    
     ax2.scatter(lasso.w[0],lasso.w[1],marker='o',label='Weights_theta '+str(i))
-    ax2.set(title='Weights',ylabel='w1 weights',xlabel='w0 weights')
+    ax2.set(title='Lasso_Weights',ylabel='w1 weights',xlabel='w0 weights')
     ax2.legend()
     
 

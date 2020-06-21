@@ -49,10 +49,10 @@ for i in [0,10,100,1000]:
     ridge.fit(x,y)
     ridge_pred = ridge.predict(x)
     ax1.plot(x,ridge_pred,marker='.',label='Predicted_theta '+str(i))
-    ax1.set(title='Linear Regression',ylabel='y values',xlabel='x values')
+    ax1.set(title='Linear Regression_Ridge Effect',ylabel='y values',xlabel='x values')
     ax1.legend()
    
     ax2.scatter(ridge.w[0],ridge.w[1],marker='o',label='Weights_theta '+str(i))
-    ax2.set(title='Weights',ylabel='w1 weights',xlabel='w0 weights')
+    ax2.set(title='Ridge_Weights',ylabel='w1 weights',xlabel='w0 weights')
     ax2.legend()
 
