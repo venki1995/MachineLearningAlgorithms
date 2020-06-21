@@ -42,6 +42,10 @@ Regularization is applied on higher order features 1 and above; bias isnt includ
 
 ### Ridge vs Lasso Weights
 
+<p float="left">
+  <img src="Images/Ridge_weights.png" width="400" height="300"/>
+  <img src="Images/Lasso_weights.png" width="400" height="300"/> 
+</p>
 
 
 ## Contributing
