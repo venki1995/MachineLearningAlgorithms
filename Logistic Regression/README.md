@@ -16,7 +16,7 @@ Cost function is written only for 1 feature variable although the algorithm work
 
 #### Decision Boundary for iris dataset
 
-<img src="images/decision_boundary.png" width="500" height="400"/>
+
 
 ## Contributing
 
