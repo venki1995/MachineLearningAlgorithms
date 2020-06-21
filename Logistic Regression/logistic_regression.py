@@ -64,6 +64,9 @@ def plot_decision_boundary(pred_func, X, y):
     fig,ax1 = plt.subplots(dpi=500)
     ax1.contourf(xx, yy, Z, cmap=plt.cm.coolwarm)
     ax1.scatter(X[:, 0], X[:, 1], c=y.ravel(),cmap=plt.cm.coolwarm)
+    ax1.set_xlabel("Petal length_standardised")
+    ax1.set_ylabel("Petal Width_standardised")
+    ax1.set_title("Binary classification of Iris Dataset - Class 0,1")
 
 lr = LogisticRegression(reg_parameter = 0)
 lr.fit(X_train,y_train)
