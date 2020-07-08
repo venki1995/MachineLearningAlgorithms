@@ -38,7 +38,7 @@ class LogisticRegression:
     
     def predict(self,X):
         wtx = self.wTx(X)
-        return np.where(self.activation(wtx)>=0.5,1,0)
+         return np.where(self.activation(wtx)>=0.5,1,0)
     
     def plot_cost(self):
         fig,ax1 = plt.subplots(dpi=250)
