@@ -8,15 +8,19 @@
 ### Cost Function
 
 Cost function is calculated using hinge loss
-![](Images/cost_function.gif)
+
+![](Images/cost_function.png)
 
 #### Weights Updation
 
 ![](Images/gradient.png)
 
-#### Decision Boundary for iris dataset
+#### Decision Boundary for iris dataset - Regularisation hard vs soft margin
 
-<img src="images/decision_boundary.png" width="500" height="400"/>
+<p float="left">
+  <img src="Images/C_1.png" width="400" height="300"/>
+  <img src="Images/C_0.1.png" width="400" height="300"/> 
+</p>
 
 ## Contributing
 
