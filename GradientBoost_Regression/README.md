@@ -3,11 +3,10 @@
 1. Uses gradient boosting algorithm which takes pseudoresiduals (actual - predicted value) and fits decision trees. 
 2. eta is the learning rate which is multiplied with the prediction of pseudoresiduals and added to the baseline prediction.
 3. The input feature vector X and target y are to be given as column vectors to the model
+4. Tweaking three parameters n_trees, learning rate and max_depth significantly affect predictions and overfitting. To overcome bias variance tradeoff cross-validation and gridsearch can give optimum values
 
 
 ### Effect of n_trees
-
-With increasing number of trees weak learners add up and give better predictions
 
 <p float="left">
   <img src="Images/md_1_t_20_lr_1.png" width="400" height="300"/>
