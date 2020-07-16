@@ -7,7 +7,7 @@
 
 ### Gist of the Algorithm 
 
-<img src="Images/gbr_algorithm.png" />
+<img src="Images/gbr_algorithm.png" width="500" height="400"/>
 
 ### Effect of n_trees
 
@@ -15,15 +15,6 @@
   <img src="Images/gb_md_1_t_5_lr_1.png" width="400" height="300"/>
   <img src="Images/gb_md_1_t_20_lr_1.png" width="400" height="300"/> 
 </p>
-
-
-### Effect of learning rate
-
-<p float="left">
-  <img src="Images/md_1_t_10_lr_2.png" width="400" height="300"/>
-  <img src="Images/md_1_t_10_lr_5.png" width="400" height="300"/> 
-</p>
-
 
 ### Effect of max_depth
 
