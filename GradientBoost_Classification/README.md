@@ -7,7 +7,7 @@
 
 ### Gist of the Algorithm 
 
-<img src="Images/gbr_algorithm.png" width="500" height="400"/>
+<img src="Images/gbr_algorithm.PNG" width="500" height="400"/>
 
 ### Effect of n_trees
 
