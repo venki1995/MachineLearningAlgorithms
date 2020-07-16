@@ -23,7 +23,7 @@ class GradientBoost():
         
     def fit(self,X,y):
         ypred = np.full(np.shape(y),np.mean(y))
-        self.initpred = ypred
+        self.initpred = np.mean(y)
         for i in range(self.n_trees):    
             grad = y - ypred
             self.trees[i].fit(X,grad)
@@ -31,11 +31,11 @@ class GradientBoost():
             ypred = ypred + self.eta*boost_val.reshape(-1,1)
     
     def predict(self,X):
-        wl = np.zeros(self.initpred.shape[0])
+        wl = np.zeros(X.shape[0])
         for i in range(self.n_trees):
             boost_val = self.trees[i].predict(X)
             wl = wl + self.eta*boost_val
-        return self.initpred + wl.reshape(-1,1)
+        return np.full((X.shape[0],1),self.initpred) + wl.reshape(-1,1)
     
 seed = np.random.RandomState(42)
 
